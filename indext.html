@@ -28,19 +28,22 @@
                   <button class="topnav__close" id="btnClose" aria-label="Close">
                     <img src="/assets/icone-fermer-et-x-jaune.png" alt="close" width="28" height="27" />
                   </button>
-                  <ul class="topnav__links">
-                    <li class="topnav__item">
-                      <a href="" class="topnav__link">About</a>
-                    </li>
-                    <li class="topnav__item">
-                      <a href="" class="topnav__link">Location</a>
-                    </li>
-                    <li class="topnav__item">
-                      <a href="" class="topnav__link">Careers</a>
-                    </li>
-                    <li><a href="" class="topnav_item">Get Scootin</a></li>
-    
-                  </ul>
+
+                  <div class="topnav__menu-content">
+                    <ul class="topnav__links">
+                        <li class="topnav__item">
+                          <a href="" class="topnav__link">About</a>
+                        </li>
+                        <li class="topnav__item">
+                          <a href="" class="topnav__link">Location</a>
+                        </li>
+                        <li class="topnav__item">
+                          <a href="" class="topnav__link">Careers</a>
+                        </li>
+                      </ul>
+                      <a href="" class="button" >Get Scootin</a>
+                  </div>
+                
                 </div>
               </nav>
 
@@ -52,14 +55,25 @@
     </header>
 
     <main>
-        <selection>
-            <h1>
-                Scooter sharing made simple
-            </h1>
-            <p>
-                Scoot takes the hassel out of urban mobility. Our bikes are placed in convienient locations in each of our cities. Use our appp to locate the nearest bike, unlock it with a tap, and you're away!
-            </p>
-            <a href="" class="button">Get Scootin</a>
+        <selection class="wrapper hero">
+            <picture class="hero-picture fullbleed">
+                <source media="(width >= calc(1000/16*1rem))" srcset="/assets/man-vespa-hero-desktop.jpg.webp" width="1440" height="650"/>
+                <source media="(width >= calc(700/16*1rem))" srcset="/assets/man-vespa-hero-tablet.jpg.webp" width="768" height="650"/>
+                <img class="hero-img"src="/assets/man-vespa-hero-mobile.jpg.webp" alt="man riding yellow scooter" width="375" height="650"/>
+            </picture>
+
+            <div class="hero-content">
+                <h1>
+                    Scooter sharing made simple
+                </h1>
+                <p>
+                    Scoot takes the hassel out of urban mobility. Our bikes are placed in convienient locations in each of our cities. Use our appp to locate the nearest bike, unlock it with a tap, and you're away!
+                </p>
+                <a href="" class="button">Get Scootin</a>
+
+            </div>
+
+            
         </selection>
 
         <section class="features wrapper">

@@ -1,6 +1,6 @@
 const btnOpen = document.querySelector('#btnOpen');
 const btnClose = document.querySelector('#btnClose');
-const media = window.matchMedia('(calc(700/16*1rem))');
+const media = window.matchMedia('(width < calc(700/16*1rem))');
 const topNavMenu = document.querySelector('.topnav__menu');
 const main = document.querySelector('main');
 const body = document.querySelector('body');
